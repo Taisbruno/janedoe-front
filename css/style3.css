@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    text-transform: uppercase;
+    /* espaçamento externo */
+    margin: 0;
+    /* espaçamento interno */
+    padding: 20px 0 15px;
+
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+section.banner-principal {
+    width: 100%;
+    /* viewport height = altura da janela */
+    height: 78vh;
+    /* height: calc(100vh-186px);*/
+    background-image: url('../img/jane.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #ccc;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* about.html */
+
+section.about {
+    text-align: center;
+    padding: 40px 0;
+}
+
+section.about img{
+    width: 450px;
+    max-width: 100%;
+}
+
+section.about cite {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 15px;
+}
+
+section.music {
+    width: 900px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+section.music iframe {
+    width: 600px;
+    margin: 30px 0;
+
+}
+
+section.contact {
+    width: 900px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+section.contact article {
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
